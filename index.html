@@ -2,6 +2,7 @@
 	<head>
 		<title>Mischa Williams</title>
 		<style>
+
 			body{
 				margin: 0;
 				border: 0;
@@ -14,18 +15,18 @@
 			}
 			#bot_bg{
 				background-color: #EDFFFD;
-				height: 600px;
 				display: block;
-				padding-top: 135; /*half photo (125) height plus padding*/
+				padding-top: 135; 
 				padding-left: 20%;
 				padding-right: 20%;
+				padding-bottom: 20px;
 			}
 			#photo{
 				position: relative;
 				margin-left: auto;
-    			margin-right: auto;
+    			margin-right: auto;/*what to do for ie?*/
 				margin-top: 180px;
-				width: 250px; /*half is 125*/
+				width: 250px; 
 				height: 250px;
 
 			}
@@ -39,18 +40,30 @@
 				margin-top: 0px;/*??????WHY is this not relative to parent?!*/
 				padding-top: 45px;
 				font-family: verdana;
-				font-size: 5em;
+				font-size: 2.75em;
 				color: #EDFFFD;
+				/*content: 'MISCHA'; Why this not work?*/
 			}
 			p {
 				font-family: arial;
-				font-size: 2em;
+				font-size: 1.5em;
 				color: #362f2d;
+			}
+			@media all and (min-width: 840px) {
+				h1 {
+					/*content: 'MISCHA WILLIAMS'; Why this not work?*/
+					font-size: 4.75em;
+				}
+				p {
+					font-size: 2em;
+
+				}
+
 			}
 		</style>
 	</head>
 	<body>
-		<div id="background_container">
+		<div id="MISCHA WILLIAMS">
 			<div id="top_bg">
 				<h1>MISCHA WILLIAMS</h1>
 			</div>
